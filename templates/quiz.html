@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+      <link rel="stylesheet" href="{{ url_for('static', filename='stress.css') }}">
+      <script src="{{ url_for('static', filename='stress.js') }}"></script>
+
+    <title> Stress Less </title>
+    <link rel="icon" type="image/png" href="https://i.pinimg.com/originals/85/27/8f/85278f4ca132ab0cc66d863d6e01d98b.png" sizes="16x16" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+  </head>
+
+  <body>
+
+    <img src="https://i.pinimg.com/originals/aa/59/30/aa59302a3cfea5653b5b52588ce4bc9b.png" class="center">
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#">Menu</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="blogs.html">Blogs</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="tips.html">Tips</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="places.html">Places</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="app.html">Apps</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="quiz.html">Quiz</a>
+      </li>
+
+    </ul>
+  </div>
+</nav>
+<h3 class="text-center">Quiz<h3>
+
+<style>
+.parallax {
+/* The image used */
+background-image: url(https://66.media.tumblr.com/cf1b0f7b16c055ee6c9a69a24ea4c392/tumblr_opluqq0rdR1s8mouyo1_1280.gif);
+/* Set a specific height */
+height: 350px;
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+</style>
+
+<!-- Container element -->
+<div class="parallax"></div>
+
+
+<div id="quiz"></div>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+<script src="{{ url_for('static', filename='stress.js') }}"></script>
+
+
+
+
+
+
+</body>
